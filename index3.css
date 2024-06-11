@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+}
+
+#container{
+    background-color: rgb(54, 54, 54);
+    border: 0;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(66, 66, 66, 0.4);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+#txt{
+    color: white;
+    font-style: italic;
+    
+}
+
+.input_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  .deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .deleteBtn:hover {
+    background-color: #d32f2f;
+  }
